@@ -1,0 +1,385 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+}
+main {
+    background-image: url("netflix background.jpg"); 
+    background-size: cover;
+    border-bottom: 10px solid rgb(46, 45, 45);
+    height: 100vh;
+    position: relative;
+}
+main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+/* netflix logo */
+
+.logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 115px;
+    position: relative;
+    z-index: 10;
+}
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-in-button {
+    height: 32px ;
+    width: 75px;
+    background-color: rgb(212, 31, 31);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.sign-in-button:hover {
+    background-color:  rgb(150, 29, 29);
+}
+
+/* hero section 1 */
+
+.hero-section {
+    color: white;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.hero-section :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero-section :nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+.hero-section :nth-child(3) {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 16px 0px 0px;
+}
+.hero-section .email-address{
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid whitesmoke ;
+    border-radius: 4px;
+    padding: 24px 16px 18px;
+    margin-top: 16px;
+    font-size: 1rem;
+}
+.hero-section .get-start-button {
+    width: 215px;
+    height: 55px;
+    background-color: rgb(212, 31, 31);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.get-start-button:hover {
+    background-color:  rgb(150, 29, 29);
+}
+.email-address:active {
+    font-size: small;
+
+}
+
+/* section 2 */
+
+.section-2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.section-2-text {
+    color: white;
+    height: 100%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.section-2-text :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    margin-right: 33px ;
+}
+.section-2-text :nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+.section-2-tv {
+    background-image: url("tv.png");
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    z-index: 10;
+}
+.section-2-video {
+    position: absolute;
+    top: 786px;
+    right: 0px;
+    height: 196px;
+    width: 723px;
+}
+
+/* section 3 */
+
+.section-3 {
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.section-3-text {
+    color: white;
+    height: 100%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.section-3-text :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+.section-3-text :nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-right: 100px;
+}
+.mob {
+    background-image: url("mobile-0819.jpg");
+    background-size: cover;
+    width: 480px;
+    height: 360px;
+}
+
+/* section 4 */
+
+.section-4 {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.section-4-text {
+    color: white;
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+}
+.section-4-text :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    margin-right: 33px;
+    
+}
+.section-4-text :nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 16px 0px 0px;  
+    margin-left: -33px;
+}
+.empty-div {
+    background-color: black;
+    height: 350px;
+    width: 450px;
+    position: relative;
+}
+
+/* section 5 */
+
+.section-5 {
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.section-5-text {
+    color: white;
+    height: 100%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.section-5-text :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+.section-5-text :nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+
+.kids {
+    background-image: url("AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png");
+    background-size: cover;
+    height: 360px;
+    width: 480px;
+}
+
+/* last-section */
+
+.last-section {
+    height: 890px;
+    padding: 72px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 10px solid rgb(46, 45, 45);
+}
+.questions {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+ 
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 24px;
+    width: 970px;
+    background-color: rgb(48, 44, 44);
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.faq:hover {
+    background-color: rgb(71, 68, 68); 
+}
+.hero-section2 {
+    color: white;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.hero-section2 :first-child {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 16px 0px 0px;
+}
+.hero-section2 .email-address{
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid whitesmoke ;
+    border-radius: 4px;
+    padding: 24px 16px 18px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.hero-section2 .get-start-button {
+    width: 215px;
+    height: 55px;
+    background-color: rgb(212, 31, 31);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.get-start-button:hover {
+    background-color:  rgb(150, 29, 29);
+}
+footer {
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row; 
+}
+a {
+    color: gray;
+    text-decoration: underline;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px ;
+}
+ul {
+    margin-top: 50px;
+}
+
+.select {
+    padding: 6px 36px 6px 34px;
+    background-color: black;
+    border: 1px solid whitesmoke ;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.pk {
+    color: gray;
+    font-size: 0.85rem;
+    margin-top: 20px ;
+    margin-bottom: 70px;
+}
